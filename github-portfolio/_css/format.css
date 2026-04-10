@@ -1,0 +1,39 @@
+body {
+    background-color: #F2C4D0;
+}
+h1 {
+    font-weight: bold;
+    color: #82AFFF; 
+}
+p {
+    color: #9FBF8F;  
+}
+ul {
+    background-color: #FFFFFF;
+    width: 200px;
+    max-width: 100%; 
+    margin: 0 auto;
+    margin-left: 20px;
+}
+.rhiannon {
+    color: #D2A2F2; 
+    text-decoration: wavy underline;
+}
+.hi {
+    border: solid 0.1em #FFFFFF; 
+}
+.cascadiacollege {
+    color: #4169E1;
+    font-weight: bold;
+
+}   
+.basicsofwebauthoring {
+    font-style: italic; 
+}
+.website {
+    text-decoration: solid underline;
+}
+.secondyear {
+    font-weight: bold;  
+    text-decoration: dashed underline; 
+}
