@@ -1,19 +1,42 @@
 body {
     background-color: #F2C4D0;
+    padding: 5px;
+    border: dashed .2em #FFFFFF; 
 }
-h1 {
+header {
+   background-color: #F2C4E3;    
+   border: dotted .3em #EA9FD1;
+   text-align: center;     
+}
+header h1 {
     font-weight: bold;
     color: #82AFFF; 
 }
-p {
-    color: #9FBF8F;  
-}
-ul {
-    background-color: #FFFFFF;
-    width: 200px;
-    max-width: 100%; 
-    margin: 0 auto;
+nav li { 
     margin-left: 20px;
+    list-style: none;
+    display:inline;    
+}
+a {
+    color: #A898E3;
+}
+a:visited {
+    color: #587548;
+}
+a:hover {
+    color: #6B4CD4; 
+}
+main h2 {
+    color: #82AFFF;
+    font-weight: bold; 
+    font-size: 3em;
+}
+main p {
+    color: #9FBF8F;   
+}
+main img {
+    height: 200px;
+    width: 300px;  
 }
 .rhiannon {
     color: #D2A2F2; 
@@ -36,4 +59,18 @@ ul {
 .secondyear {
     font-weight: bold;  
     text-decoration: dashed underline; 
+}
+footer {
+    background-color: #C7DBBD;
+    padding: 15px;  
+}
+footer li {
+    margin-left:20px;
+    list-style: none; 
+    display: inline; 
+}
+footer p {
+    font-size: 1em; 
+    color: #82AFFF;
+    text-align: center; 
 }
