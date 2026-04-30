@@ -1,0 +1,18 @@
+name: HTML Validation
+
+on: [pull_request]
+
+jobs:
+  validate-html:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Validate HTML and CSS
+        uses: anishathalye/proof-html@v2.2.3
+        with:
+          directory: ./
+          check_html: true
+          check_css: true
+          check_favicon: false
