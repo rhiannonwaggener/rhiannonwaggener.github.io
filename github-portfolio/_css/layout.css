@@ -1,0 +1,26 @@
+body {
+    padding: min(5px, 5%);
+    display:block;
+}
+header {
+    font-size: 1vw; 
+}
+nav {
+    font-size: 1vw;
+}
+nav li {
+    display: inline-block;
+    margin-left: min(20px, 5%);
+}
+main {
+    font-size: 1vw;
+}
+main img {
+    max-width: 100%; 
+    height: auto; 
+}
+footer {
+    font-size: 1vw;
+    padding: min(15px, 5%); 
+    text-align: center; 
+}
