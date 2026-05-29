@@ -90,19 +90,19 @@ nav a {
     width: 300px;  
     height: 250px;
 }
-.yarrow-info img{
+.yarrow-info{
     width: 500px;
     height: 281px;
 }
-.hawthorn-info img, .rose-info img {
+.hawthorn-info, .rose-info{
     width: 500px;
     height: 375px;
 }
-.violet-info img, .salal-info img {
+.violet-info, .salal-info {
     width: 500px;
     height: 333px;
 }
-.fireweed-info img{
+.fireweed-info {
     width: 400px;
     height: 533px;
 }
