@@ -1,0 +1,13 @@
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav a, nav a:hover, .active {
+    display:block;
+}
+.yarrow, .hawthorn, .violet, .rose, .salal, .fireweed, .yarrow-recipes, .hawthorn-recipes, .violet-recipes, .rose-recipes, .salal-recipes, .fireweed-recipes {
+    float: left;
+}
+.yarrow img, .hawthorn img, .violet img, .rose img, .salal img, .fireweed img, .yarrow-recipes img, .hawthorn-recipes img, .violet-recipes img, .rose-recipes img, .salal-recipes img, .fireweed-recipes img {
+    display: flex;
+}

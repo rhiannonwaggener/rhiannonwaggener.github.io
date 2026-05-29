@@ -16,36 +16,107 @@ nav ul{
     margin: 0;
     padding: 0;
     list-style-type: none;
-    display: flex;
-    justify-content: center;
 }
 nav a {
     padding: 0.5rem 1rem;
     margin: 0rem 0.5rem;
-    display:block;
     text-decoration: none;
     color: #DDDDDD;
 }
-.main {
+.active {
+    background-color: #AA5580;
+    border: 2px dotted #DDDDDD;
+    border-radius: 100px;
+}
+.main, .flower-pages, .recipe-pages, .tips, .additional-resources, .recipe-form {
     background-color: #669900;
     padding: 0.5rem;
     margin: 0.5rem;
     border-radius: 0.5rem;
+    line-height: 1.5;
 }
-.yarrow {
+.main h2, .edible-flowers, .recipes, .flower-pages h2, .recipe-pages h2, .tips h2, .additional-resources h2, .recipe-form h2 {
+    text-align: center;
+}
+.flower-pages li, .tips li {
+    list-style-type: none;
+}
+.recipe-pages h3 {
+    font-weight: normal;
+    text-decoration: underline;
+}
+.additional-resources a{
+    color:#DDDDDD;
+}
+.yarrow, .hawthorn, .violet, .rose, .salal, .fireweed, .yarrow-recipes, .hawthorn-recipes, .violet-recipes, .rose-recipes, .salal-recipes, .fireweed-recipes {
     background-color: #669900;
+    text-align: center;
+    border-radius: 0.5rem;
     padding: 5px 15px;   
     width: 300px; 
+    height: 350px;
     margin-left: 50px;   
-    margin-bottom: 5px; 
-    float: left;
+    margin-bottom: 10px; 
 }
-.yarrow img {
-    display: flex;
+.yarrow a, .hawthorn a, .violet a, .rose a, .salal a, .fireweed a, .yarrow-recipes a, .hawthorn-recipes a, .violet-recipes a, .rose-recipes a, .salal-recipes a, .fireweed-recipes a{
+    color:#DDDDDD;
+    text-decoration: none;
+}
+.yarrow img, .yarrow-recipes img {
+    width: 300px;  
+    height: 170px;
+}
+.hawthorn img {
+    width: 300px;  
+    height: 225px;
+}
+.violet img, .violet-recipes img {
+    width: 300px;  
+    height: 200px;
+}
+.rose img {
+    width: 300px;  
+    height: 225px;
+}
+.salal img {
+    width: 300px;  
+    height: 200px;
+}
+.fireweed img, .fireweed-recipes img {
     width: 300px;  
     height: 250px;
 }
+.hawthorn-recipes img, .rose-recipes img, .salal-recipes img {
+    width: 300px;  
+    height: 250px;
+}
+.yarrow-info img{
+    width: 500px;
+    height: 281px;
+}
+.hawthorn-info img, .rose-info img {
+    width: 500px;
+    height: 375px;
+}
+.violet-info img, .salal-info img {
+    width: 500px;
+    height: 333px;
+}
+.fireweed-info img{
+    width: 400px;
+    height: 533px;
+}
+.recipe-form input,textarea {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.recipe-form button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #8B4669;
+    color: #DDDDDD;
+    border: 1 px solid transparent;
+}
 footer {
+    clear: both;
     background-color: #887755;
     text-align: center;
     padding: 0.5rem;
