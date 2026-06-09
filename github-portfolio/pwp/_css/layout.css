@@ -1,13 +1,76 @@
 nav ul{
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    padding: 0.5rem 1rem;
+    margin: 0rem 0.5rem;
 }
 nav a, nav a:hover, .active {
     display:block;
 }
-.yarrow, .hawthorn, .violet, .rose, .salal, .fireweed, .yarrow-recipes, .hawthorn-recipes, .violet-recipes, .rose-recipes, .salal-recipes, .fireweed-recipes {
+.main {
+    padding: 20px;
+    display: inline-block;
+}
+.main, .flower-pages, .recipe-pages, .recipe-pages-yarrow, .tips, .success {
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+.yarrow, .hawthorn, .violet, .rose, .salal, .fireweed, .yarrow-recipes, .hawthorn-recipes, .violet-recipes, .rose-recipes, .salal-recipes, .fireweed-recipes, .wild-food, .wild-edible, .northern-bushcraft, .wnps, .king-county, .burke-museum {
     float: left;
+}
+.yarrow, .hawthorn, .violet, .rose, .salal, .fireweed, .yarrow-recipes, .hawthorn-recipes, .violet-recipes, .rose-recipes, .salal-recipes, .fireweed-recipes {
+    padding: 5px 15px;   
+    margin-left: 50px;   
+    margin-bottom: 10px; 
 }
 .yarrow img, .hawthorn img, .violet img, .rose img, .salal img, .fireweed img, .yarrow-recipes img, .hawthorn-recipes img, .violet-recipes img, .rose-recipes img, .salal-recipes img, .fireweed-recipes img {
     display: flex;
+}
+.yarrow-info, .fireweed-info, .hawthorn-info, .rose-info, .salal-info, .violet-info, .yarrow-recipe-info, .violet-recipe-info, .hawthorn-recipe-info, .rose-recipe-info, .salal-recipe-info, .fireweed-recipe-info, .wildflower-meadow {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+}
+.flower-pages {
+    padding: 20px;
+    display: inline-block;
+}
+.recipe-pages {
+    padding: 20px;
+    display: inline-block;
+}
+.recipe-pages-yarrow {
+    padding: 20px;
+}
+.form {
+    display: block;
+    margin: 0 auto;
+    padding: 0.5rem 2rem;
+    margin-bottom: 1rem;
+}
+.recipe-form button {
+    padding: 0.5rem 1rem;
+    display: block;
+    margin: 0 auto;
+}
+.success {
+    margin: 10px 300px;
+}
+.wild-food, .wild-edible, .northern-bushcraft, .wnps, .king-county, .burke-museum {
+    padding: 5px 30px; 
+    margin-left: 50px;   
+    margin-bottom: 10px;
+}
+.additional-resources ul {
+    display: inline-block;  
+}
+footer {
+    clear: both;
+    padding: 0.5rem;
 }

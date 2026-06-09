@@ -1,9 +1,11 @@
 nav a:visited {
     color: #BB7799;
 }
-nav a:hover {
+nav a:hover, .recipe-form button:hover {
     border: 2px dotted #DDDDDD;
     border-radius: 100px;
     color: #DDDDDD;
 }
-
+.recipe-form button:hover {
+    background-color: #AA5580;
+}
